@@ -6811,7 +6811,50 @@ body {
 
 
 
+@media (max-width: 768px) {
+    .video-container {
+        margin-top: 20px;
+    }
 
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section .text, .section .image {
+        flex: none;
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-links a {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    h4, h5 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
 
 
 
