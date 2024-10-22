@@ -6648,12 +6648,6 @@ button.close {
 
 
 
-
-
-
-
-
-
 /* Redes Sociales */
 .redes {
   position: absolute;
@@ -6723,138 +6717,133 @@ button.btn:hover {
 
 
 
-
-
-
 /* General reset and styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* Style for the social media icons */
 .social-media a {
-    font-size: 24px;
-    color: #000;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 5px;
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 5px;
 }
 
 /* Responsive container for video */
 .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 /* Image and content container */
 .contenedor2 img {
-    width: 100%; /* Ensure the image fits the container */
-    max-width: 400px;
-    margin-top: 20px;
+  width: 100%; /* Ensure the image fits the container */
+  max-width: 400px;
+  margin-top: 20px;
 }
 
 /* Responsive text section */
 .text-section {
-    padding: 20px;
-    color: black;
+  padding: 20px;
+  color: black;
 }
 
 /* Responsive box */
 .box {
-    width: 100%;
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 30px;
-    background-color: antiquewhite;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: antiquewhite;
 }
 
 /* Adapt styles for smaller screens */
 @media (max-width: 768px) {
-    .video-container iframe {
-        width: 100%;
-        height: auto;
-    }
+  .video-container iframe {
+      width: 100%;
+      height: auto;
+  }
 
-    .contenedor2 img {
-        width: 100%;
-        height: auto;
-        margin-top: 20px;
-    }
+  .contenedor2 img {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+  }
 
-    /* Adjust margins and layout for mobile */
-    .text-section {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  /* Adjust margins and layout for mobile */
+  .text-section {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
 
-    /* Adjust font size */
-    h1, h4, h5 {
-        font-size: 20px;
-    }
+  /* Adjust font size */
+  h1, h4, h5 {
+      font-size: 20px;
+  }
 
-    .box {
-        width: 90%;
-        margin: 20px auto;
-        padding: 10px;
-    }
+  .box {
+      width: 90%;
+      margin: 20px auto;
+      padding: 10px;
+  }
 
-    .social-media a {
-        font-size: 20px;
-        margin: 5px;
-    }
+  .social-media a {
+      font-size: 20px;
+      margin: 5px;
+  }
 }
 
 
 
-@media (max-width: 768px) {
-    .video-container {
-        margin-top: 20px;
-    }
 
-    .section {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .section .text, .section .image {
-        flex: none;
-        width: 100%;
-    }
 
-    .portfolio-item {
-        width: 100%;
-        padding: 0 10px;
-    }
 
-    .social-links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social-links a {
-        margin: 5px 0;
-    }
+#footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
 }
 
-@media (max-width: 480px) {
-    h2 {
-        font-size: 24px;
-    }
-
-    h4, h5 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 16px;
-    }
+#footer h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
 }
+
+.contact-item p {
+  margin: 5px 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px; /* Ajusta el tamaño del icono según sea necesario */
+}
+
+.copyrights {
+  background-color: #222;
+  color: #aaa;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.copyrights p {
+  margin: 0;
+}
+
 
 
 
