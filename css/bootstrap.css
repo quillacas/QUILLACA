@@ -6724,3 +6724,95 @@ button.btn:hover {
 
 
 
+
+
+/* General reset and styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the social media icons */
+.social-media a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+/* Responsive container for video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Image and content container */
+.contenedor2 img {
+    width: 100%; /* Ensure the image fits the container */
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+/* Responsive text section */
+.text-section {
+    padding: 20px;
+    color: black;
+}
+
+/* Responsive box */
+.box {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+
+/* Adapt styles for smaller screens */
+@media (max-width: 768px) {
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* Adjust margins and layout for mobile */
+    .text-section {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Adjust font size */
+    h1, h4, h5 {
+        font-size: 20px;
+    }
+
+    .box {
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .social-media a {
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+
+
