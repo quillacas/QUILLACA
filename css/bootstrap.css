@@ -6579,3 +6579,148 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.social-media {
+
+  margin-right: 500px;
+    display: flex; /* Usamos flexbox para posicionar */
+    justify-content: flex-end; /* Mueve el icono a la derecha */
+    ;
+
+  
+}
+
+.social-media a {
+  color: #000; /* Icono de Facebook en color negro */
+  font-size: 30px; /* Ajusta el tamaño del icono */
+  text-decoration: none;
+  padding: 5px;
+}
+
+.social-media a:hover {
+  color: #333; /* Cambia a un gris oscuro al pasar el ratón */
+}
+
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Espacio más compacto alrededor del video */
+  background: linear-gradient(to right, #3b2d1f, #b8860b); /* Degradado de café oscuro a dorado */
+}
+
+.video-container {
+  width: 600px; /* Ajusta el tamaño del contenedor */
+  align-items: center;
+  border-radius: 12px; /* Bordes redondeados sutiles */
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* Sombra suave para dar profundidad */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transiciones suaves */
+  position: relative;
+  margin: 40px;
+  margin-bottom: 200px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px; /* Asegura bordes redondeados */
+}
+
+/* Efecto elegante al pasar el cursor */
+.video-container:hover {
+  transform: scale(1.03); /* Suave agrandamiento */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6); /* Sombra más pronunciada */
+}
+
+/* Decoración ligera */
+.video-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(255, 255, 255, 0.2), transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+/* Redes Sociales */
+.redes {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.redes a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Derechos Reservados */
+.derechos {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+/* Botón */
+button.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0;
+  position: relative;
+  letter-spacing: 0.15em;
+  margin: 50px auto;
+  padding: 1rem 2.5rem;
+  background: transparent;
+  outline: none;
+  font-size: 28px;
+  color: var(--black);
+  transition: all 0.5s;
+}
+
+button.btn:hover {
+  color: var(--white);
+}
+@media (max-width: 768px) {
+  h1 {
+      font-size: 8vw; /* Ajusta el tamaño del título en pantallas pequeñas */
+  }
+
+  button.btn {
+      font-size: 5vw; /* Ajusta el tamaño del botón en pantallas pequeñas */
+  }
+
+  .redes-sociales a {
+      font-size: 20px; /* Tamaño de los iconos en pantallas pequeñas */
+  }
+
+  footer {
+      font-size: 12px; /* Tamaño de texto del footer en pantallas pequeñas */
+  }
+}
+
+
+
+
+
+
+
